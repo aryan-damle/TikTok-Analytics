@@ -14,3 +14,6 @@ This project uses the unoffical TikTokApi by David Teather
 + Plotly Express: https://plotly.com/python/plotly-express/
 + The data is then displayed in the web application by streamlit. 
 + Streamlit: https://streamlit.io/
+
+### Demo
+<iframe width="1280" height="672" src="https://www.youtube.com/embed/CmprSp4HsVI" title="Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
