@@ -1,4 +1,4 @@
-#!/Users/aryan/Documents/TikTokTracker/tiktokanalytics/bin/python
+#!/Users/aryan/Documents/TikTokTracker/tiktokanalytics/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys
