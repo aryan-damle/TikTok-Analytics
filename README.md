@@ -16,4 +16,5 @@ This project uses the unoffical TikTokApi by David Teather
 + Streamlit: https://streamlit.io/
 
 ### Demo
-<iframe width="1280" height="672" src="https://www.youtube.com/embed/CmprSp4HsVI" title="Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+https://www.youtube.com/embed/CmprSp4HsVI
