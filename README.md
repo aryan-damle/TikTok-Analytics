@@ -1,9 +1,9 @@
 # TikTok-Analytics
 
 ### Error
-Currently, this project is unavailable due to an bug with playwright (https://playwright.dev/). 
-Issue: https://github.com/davidteather/TikTok-Api/issues/1012
-As soon as the bug is fixed in the Api, I will update the project. 
++ Currently, this project is unavailable due to an bug with playwright (https://playwright.dev/). 
++ Issue: https://github.com/davidteather/TikTok-Api/issues/1012
++ As soon as the bug is fixed in the Api, I will update the project. 
 ### Project
 This project uses the unoffical TikTokApi by David Teather
 + https://github.com/davidteather/TikTok-Api
