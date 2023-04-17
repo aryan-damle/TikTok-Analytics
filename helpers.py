@@ -1,25 +1,26 @@
-#Convert processing code to function
+#processing code to function
+
 def process_results(data):
-    nested_values = ['video', 'author', 'music', 'stats', 'authorStats']
+    nested_values = ['video', 'author', 'music', 'stats', 'authorStats', 'stickersOnItem']
     skip_values = ['challenges', 'duetInfo', 'textExtra', 'stickersOnItem']
 
-    #create balnk dictionary
+    #blank dictionary
     flattened_data = {}
     #loop through each video
     for idx, value in enumerate(data):
         flattened_data[idx] = {}
-        #loop[ through each value in each video
+        #loop through each property in video
         for prop_idx, prop_value in value.items():
-            #check if nested
-            if (prop_idx in nested_values):
-                if (prop_idx in skip_values):
+            #see if its a nested property
+            if prop_idx in nested_values:
+                if prop_idx in skip_values:
                     pass
                 else:
-                    #loop through each nested value
+                    #loop through nested property
                     for nested_idx, nested_value in prop_value.items():
                         flattened_data[idx][prop_idx + '_' + nested_idx] = nested_value
-            #if it's not nested, add it back to the flattened dictionary
+            #if its not nested, add it to the flattened dictionary
             else:
                 flattened_data[idx][prop_idx] = prop_value
-
-    return flattened_data
+    return
+    flattened_data
